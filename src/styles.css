@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --background-color: blue;
+}
+
+.child {
+  background-color: var(--background-color);
+  height: 300px;
+}
